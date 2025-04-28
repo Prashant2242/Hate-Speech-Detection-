@@ -1,0 +1,50 @@
+/* frontend/src/App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.app {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.left {
+  flex: 1;
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+textarea {
+  width: 80%;
+  height: 150px;
+  padding: 10px;
+  font-size: 16px;
+  resize: none;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 25px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.right img {
+  width: 500px;
+}
